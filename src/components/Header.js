@@ -1,33 +1,34 @@
 import React from 'react'
+import MenuIcon from '@material-ui/icons/Menu';
 
 export default function Header() {
     return (
-        <header class="l-header">
-            <nav class="nav bd-grid">
+        <header className="l-header">
+            <nav className="nav bd-grid">
                 <div>
-                    <a href="# " class="nav_logo">Luis Martinez</a>
+                    <a href="# " className="nav_logo">Luis Martinez</a>
                 </div>
-                <div class="nav_menu" id="nav-menu">
-                    <ul class="nav_list">
-                        <li class="nav_item">
-                            <a href="#home" class="nav_link active">Home</a>
+                <div className="nav_menu" id="nav-menu">
+                    <ul className="nav_list">
+                        <li className="nav_item">
+                            <a href="#home" className="nav_link active">Home</a>
                         </li>
-                        <li class="nav_item">
-                            <a href="#about" class="nav_link">About</a>
+                        <li className="nav_item">
+                            <a href="#about" className="nav_link">About</a>
                         </li>
-                        <li class="nav_item">
-                            <a href="#skills" class="nav_link">Skills</a>
+                        <li className="nav_item">
+                            <a href="#skills" className="nav_link">Skills</a>
                         </li>
-                        <li class="nav_item">
-                            <a href="#portfolio" class="nav_link">Portfolio</a>
+                        <li className="nav_item">
+                            <a href="#portfolio" className="nav_link">Portfolio</a>
                         </li>
-                        <li class="nav_item">
-                            <a href="#contact" class="nav_link">Contact</a>
+                        <li className="nav_item">
+                            <a href="#contact" className="nav_link">Contact</a>
                         </li>
                     </ul>
                 </div>
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="bx bx-menu">=</i>
+                <div className="nav_toggle" id="nav-toggle">
+                    <i className="bx bx-menu"><MenuIcon/></i>
                 </div>
             </nav>
 	</header>
