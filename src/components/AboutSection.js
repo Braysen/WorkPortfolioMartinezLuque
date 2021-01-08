@@ -13,13 +13,13 @@ export default function AboutSection() {
                     <img src={logo} alt=""/>
                 </div>
                 <div>
-                    <h2 className="about_subtitle">I am Luis Martinez</h2>
+                    <h2 className="about_subtitle">I am Luis Martinez Luque</h2>
                     <span className="about_profession">Web Developer</span>
-                    <p className="about_text">asnsaknsaknskansakns knasksnkas nsknsaksan sasansai sanisaisa sajsiajsai sajsaijsai sahsaihisa sahasihsai saisahisa sansaia</p>
+                    <p className="about_text">Mi nombre es Luis Martinez Luque soy estudiante de la carrera de Ingeniería de sistemas e informática, me gusta aprender nuevas tecnologías. Mi objetivo es integrar equipos con alta especialización tecnológica.</p>
                     <div className="about_social">
                         <a href="# " className="about_social-icon"><i className="bx bxl-linkedin"><LinkedInIcon/></i></a>
                         <a href="# " className="about_social-icon"><i className="bx bxl-github"><GitHubIcon/></i></a>
-                        <a href="# " className="about_social-icon"><i className="bx bxl-facebook"><FacebookIcon/></i></a>
+                        <a href="https://web.facebook.com/luisenrique.martinezluque" className="about_social-icon"><i className="bx bxl-facebook"><FacebookIcon/></i></a>
                     </div>
                 </div>
             </div>

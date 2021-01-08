@@ -1,12 +1,15 @@
 import React from 'react'
+import FacebookIcon from '@material-ui/icons/Facebook';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 export default function FooterSection() {
     return (
         <footer className="footer section">
             <div className="footer_container bd-grid">
                 <div className="footer_data">
-                    <h2 className="footer_title">Luis Martinez</h2>
-                    <p className="footer_text">I'm Luis Martinez and this is my personal website</p>
+                    <h2 className="footer_title">Luis Martinez Luque</h2>
+                    <p className="footer_text">I'm Luis Martinez Luque and this is my personal website</p>
                 </div>
                 <div className="footer_data">
                     <h2 className="footer_title">EXPLORE</h2>
@@ -20,9 +23,12 @@ export default function FooterSection() {
                 </div>
                 <div className="footer_data">
                     <h2 className="footer_title">FOLLOW</h2>
-                    <a href="# " className="footer_social"><i className="bx bxl-facebook"></i></a>
-                    <a href="# " className="footer_social"><i className="bx bxl-instagram"></i></a>
-                    <a href="# " className="footer_social"><i className="bx bxl-github"></i></a>
+                    <a href="https://web.facebook.com/luisenrique.martinezluque" className="footer_social"><i className="bx bxl-facebook"><FacebookIcon/></i></a>
+                    <a href="# " className="footer_social"><i className="bx bxl-instagram"><GitHubIcon/></i></a>
+                    <a href="# " className="footer_social"><i className="bx bxl-github"><LinkedInIcon/></i></a>
+                </div>
+                <div className="footer_data">
+                    <h2 className="footer_title">&#169; 2021 JBraToc. All right reserved.</h2>
                 </div>
             </div>
         </footer>

@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css'
+import './prueba.css'
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
 import FooterSection from './components/FooterSection';
@@ -11,17 +11,18 @@ import SkillsSection from './components/SkillsSection';
 function App() {
 
   return (
-          <div className="app">
+          <>
             <Header/>
             <main className="l-main">
               <HomeSection/>
               <AboutSection/>
               <SkillsSection/>
               <PortfolioSection/>
+              <div></div>
               <ContactSection/>
               <FooterSection/>
             </main>
-          </div>
+          </>
   );
 }
 

@@ -6,12 +6,12 @@ export default function Header() {
         <header className="l-header">
             <nav className="nav bd-grid">
                 <div>
-                    <a href="# " className="nav_logo">Luis Martinez</a>
+                    <a href="# " className="nav_logo">Luis Martinez Luque</a>
                 </div>
                 <div className="nav_menu" id="nav-menu">
                     <ul className="nav_list">
                         <li className="nav_item">
-                            <a href="#home" className="nav_link active">Home</a>
+                            <a href="#home" className="nav_link ">Home</a>
                         </li>
                         <li className="nav_item">
                             <a href="#about" className="nav_link">About</a>
@@ -25,8 +25,10 @@ export default function Header() {
                         <li className="nav_item">
                             <a href="#contact" className="nav_link">Contact</a>
                         </li>
+                        
                     </ul>
                 </div>
+                
                 <div className="nav_toggle" id="nav-toggle">
                     <i className="bx bx-menu"><MenuIcon/></i>
                 </div>
